@@ -1,4 +1,114 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
 
-body { background-image: url(http://i66.tinypic.com/2d7d5rm.jpg); }
+
+h1 {
+    font-size: 80px;
+    color: #333;
+    top: 0px;
+    left: 35%;
+    position: absolute;
+    text-decoration: overline;
+    /* overline on the heading just as a decoration*/
+    
+}
+
+.BC {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    /* z-index property to specify the order of the background image  */
+}
+
+
+.nav {
+    list-style-type: none;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+  top: 30%;
+ margin-top: -50px;
+ width: 100%;
+}
+/*this is the principal navbar */
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #702608;
+}   
+
+.container1 { 
+    position: absolute;
+    color: #000000;
+    width: 600px;
+    background-color: #FFFFFF;
+    top: 280px;
+    display: block;
+    left: 55%;
+    opacity: .8;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center; 
+    overflow: scroll;
+    margin-left:  10px;
+    
+}
+
+
+    
+.nav2 {
+
+    list-style-type: none;
+    overflow: hidden;
+    background-color:#702608;
+    position: absolute;
+  top: 280px;
+ width: 600px;
+ right: 70px;
+ display: block;
+ text-align: center;
+ 
+padding: 0px;
+ /*the second navbar on the internal pages */
+
+}
+
+
+
+a b {
+    color: #FFFFFF;
+     padding: 14px 16px;
+     display: block;
+     text-align: center;
+   
+    
+}
+
+a b:hover {
+    background-color: #333;
+}   
+
+.mta {
+    
+    position: fixed;
+    display: inline-block;
+    top: 280px;
+    padding-right: 10px;
+}
+
+
 
